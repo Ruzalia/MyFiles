@@ -18,29 +18,43 @@ p {
 	font-weight: bold;
 }
 
-.main-menu {
-	width: 250px;
-	max-height: 120px;
-	padding: 0;
-	font-weight: bold;
-	font-family: Arial, Helvetica, Verdana;
+ul.main-menu {
 	margin: 0;
-	list-style: none;
-}
-
-.main-menu a {
-	display: block;
-	padding: 4px 14px;
-	margin-bottom: -1px;
-	background-color: #393e8c;
+	padding: 0px 0px;
+	list-style-type: none;
+	border: 2px solid #0000a0;
+	border-radius: 20px 5px;
+	width: 90%;
 	text-align: center;
-	color: #0088CC;
-	text-decoration: none;
-	border: 1px solid #E5E5E5;
+	background-color: #33ADFF;
+	position: absolute;
+	left: 5%;
+	top: 21%;
 }
 
-.main-menu a:hover {
-	background: #F5F5F5;
+ul.main-menu li {
+	display: inline;
+}
+
+ul.main-menu li a {
+	margin: 0;
+	color: #0000a0;
+	padding: 3px 10px;
+	text-decoration: none;
+	font-weight: bold;
+	display: inline-block;
+	width: 27%;
+	font-size: 80%;
+	font-family: DejaVu Sans;
+	font-weight: bold;
+	font-style: italic;
+	border-radius: 20px 5px;
+	background-color: #0080ff;
+}
+
+ul.main-menu li a:hover {
+	border-radius: 20px 5px;
+	background-color: #b900b9;
 }
 
 #main {
@@ -194,7 +208,7 @@ p {
 }
 .link1 {
 	width: 150px;
-	min-height: 50px;
+	min-height: 40px;
 	margin: 0;
 	font-size: 100%;
 	font-family: Arial, Helvetica, Verdana;
@@ -203,7 +217,7 @@ p {
 	font-stretch: expanded;
 	text-align: center;
 	border: 1px solid;
-	background-color: #00b000;
+	background-color: #2ec0c5;
 	padding: 10px 10px;
 	position: absolute;
 	left: 15%;
@@ -215,7 +229,7 @@ p {
 
 .link2 {
 	width: 150px;
-	min-height: 50px;
+	min-height: 40px;
 	margin: 0;
 	font-size: 100%;
 	font-family: Arial, Helvetica, Verdana;
@@ -224,7 +238,7 @@ p {
 	font-stretch: expanded;
 	text-align: center;
 	border: 1px solid;
-	background-color: #00b000;
+		background-color: #2ec0c5;
 	padding: 10px 10px;
 	position: absolute;
 	left: 60%;
@@ -240,7 +254,7 @@ p {
 	min-height: 40%;
 	margin: 0;
 	text-align: left;
-	padding: 70px 100px;
+	padding: 50% 40%;
 	border: 1px solid;
 	position: absolute;
 	left: 0%;
